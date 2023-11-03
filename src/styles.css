@@ -1,0 +1,75 @@
+
+/* Common Styles */
+.text-center {
+    text-align: center;
+  }
+  
+  .margin-auto {
+    margin: 0 auto;
+  }
+  
+  /* Home Page Styles */
+  .calculator {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .calculator input[type="text"],
+  .calculator button {
+    margin: 5px;
+    padding: 10px;
+    font-size: 1em;
+  }
+  
+  .calculator button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .calculator button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Blog Page Styles */
+  .blog {
+    padding: 20px;
+  }
+  
+  .article {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .article h2 {
+    margin-bottom: 5px;
+  }
+  
+  .article p {
+    margin: 0;
+    font-size: 0.9em;
+  }
+  
+  /* Contact Page Styles */
+  .contact label,
+  .contact input,
+  .contact textarea,
+  .contact button {
+    display: block;
+    margin: 10px auto;
+    font-size: 1em;
+  }
+  
+  .contact button {
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .contact button:hover {
+    background-color: #218838;
+  }
+  
